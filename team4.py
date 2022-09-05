@@ -1,9 +1,11 @@
 import random
 
-text = './news.txt'
+text = 'news.txt'
 f = open(text, "r")
-print(f.read())
-
+r = f.read()
+ 
+def taskThree(r):
+  return r[::-1]
 
 def pickOneMemeber():
     '''example function'''
@@ -13,12 +15,15 @@ def pickOneMemeber():
     return result
 
 
+
+
 if __name__ == "__main__":
-    print(pickOneMemeber())
+    #print(pickOneMemeber())
     # print(taskOne())
     # print(taskTwo())
-    # print(taskThree())
+     print(taskThree(r))
     # print(taskFour())
+
 
     # Task-1 - count the total number of words in the prargraph that contains vowel characters(a, e, i, o u)
     
