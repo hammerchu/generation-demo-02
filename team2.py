@@ -23,6 +23,7 @@ if __name__ == "__main__":
     # Task-1 - count the total number of words in the prargraph that contains vowel characters(a, e, i, o u)
 text = './news.txt'
 f = open(text, "r")
+print(f)
 print("a = ", f.read().count("a"))
 text = './news.txt'
 f = open(text, "r")
