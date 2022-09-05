@@ -21,7 +21,23 @@ if __name__ == "__main__":
     # print(taskFour())
 
     # Task-1 - count the total number of words in the prargraph that contains vowel characters(a, e, i, o u)
-    
+text = './news.txt'
+f = open(text, "r")
+print(f)
+print("a = ", f.read().count("a"))
+text = './news.txt'
+f = open(text, "r")
+print("e = ", f.read().count("e"))
+text = './news.txt'
+f = open(text, "r")
+print("i = ", f.read().count("i"))
+text = './news.txt'
+f = open(text, "r")
+print("o = ", f.read().count("o"))
+text = './news.txt'
+f = open(text, "r")
+print("u = ", f.read().count("u"))
+
     # Task-2 - encode the paragraph by shifting the position of each character by a variable value e.g. I am a boy (1) -> J bn b cpz
 
     # Task-3 - Reverse the entire paragraph line by line e.g. I am a boy -> yob a ma I
