@@ -96,4 +96,13 @@ print(a+e+i+o+u)
 
     # Task-3 - Reverse the entire paragraph line by line e.g. I am a boy -> yob a ma I
 
-    # Task-4 - Reverse the order of character of each word e.g. I am a boy -> I ma a yob
+Brian-dev
+
+text = './news.txt'
+f = open(text, "r")
+f = f.read()
+f = f[::-1]
+f
+
+
+   
