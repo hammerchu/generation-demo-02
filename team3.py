@@ -13,6 +13,19 @@ def pickOneMemeber():
     return result
 
 
+    # Task-4 - Reverse the order of character of each word e.g. I am a boy -> I ma a yob
+
+text = './news.txt'
+f = open(text, "r")
+p = f.read()
+
+def taskFour(p):
+    words = p.split(" ")
+    Nwords = [word[::-1] for word in words]
+    newstence = " ".join(Nwords)
+
+    return newstence 
+
 if __name__ == "__main__":
     print(pickOneMemeber())
     # print(taskOne())
@@ -26,4 +39,3 @@ if __name__ == "__main__":
 
     # Task-3 - Reverse the entire paragraph line by line e.g. I am a boy -> yob a ma I
 
-    # Task-4 - Reverse the order of character of each word e.g. I am a boy -> I ma a yob
