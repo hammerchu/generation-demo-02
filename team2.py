@@ -1,28 +1,29 @@
 import random
 
-text = './news.txt'
-f = open(text, "r")
+text = "./news.txt"
+f = open(text, "r", encoding='utf-8')
 print(f.read())
 
 
-def pickOneMemeber():
-    '''example function'''
+# def pickOneMemeber():
+#     '''example function'''
 
-    teamJDE = ['hammer', 'billy', 'chistina']
-    result = random.sample(teamJDE, 1)
-    return result
+#     teamJDE = ['hammer', 'billy', 'chistina']
+#     result = random.sample(teamJDE, 1)
+#     return result
 
 
-if __name__ == "__main__":
-    print(pickOneMemeber())
-    # print(taskOne())
-    # print(taskTwo())
-    # print(taskThree())
-    # print(taskFour())
+# if __name__ == "__main__":
+#     print(pickOneMemeber())
+#     # print(taskOne())
+#     # print(taskTwo())
+#     # print(taskThree())
+#     # print(taskFour())
 
-    # Task-1 - count the total number of words in the prargraph that contains vowel characters(a, e, i, o u)
+#     # Task-1 - count the total number of words in the prargraph that contains vowel characters(a, e, i, o u)
     
-    # Task-2 - encode the paragraph by shifting the position of each character by a variable value e.g. I am a boy (1) -> J bn b cpz
+#     # Task-2 - encode the paragraph by shifting the position of each character by a variable value e.g. I am a boy (1) -> J bn b cpz
+
 
     # Task-3 - Reverse the entire paragraph line by line e.g. I am a boy -> yob a ma I
 
